@@ -1,0 +1,227 @@
+<?php
+  session_start();
+  if (isset($_SESSION["id"]) && $_SESSION["role"] == "media") {
+  ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDIA TEAM</title>
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <ul class="nav">
+    <li class="nav1">
+      <img src="../../assets/logo-YGPAtP36.png" alt="" class="nav1img">
+      <div class="shift">
+        <h2>ENSUBEB</h2>
+        <P>Ensuring education reaches all children</P>
+      </div>
+    </li>
+    <li class="nav2">
+      <form action="" method="get">
+        <label for="search" class="nav2i">Project Search</label>
+        <input type="text" class="nav2ii" placeholder="search for heading">
+      </form>
+    </li>
+  </ul>
+  <h1 class="div1">MEDIA TEAM PAGE</h1>
+  <h2 class="div2">List Of Posts</h2>
+
+  <table style="width:100%">
+    <tr>
+      <th class="one">S/N</th>
+      <th class="two">IMAGES</th>
+      <th class="three">HEADING</th>
+      <th class="four">WRITE UPS</th>
+      <th class="five">TIME OF UPLOAD</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+        <img src="../../assets/1c8fea0e-ec34-4ce7-ba52-6cdb64108bc3.jpeg" alt="" class="nav2iiimg">
+      </td>
+      <td>Public Service Announcement</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident placeat quo amet nemo quam recusandae labore at illum exercitationem natus vitae repudiandae illo culpa sequi, temporibus, omnis ex sed. Pariatur earum quidem maxime laborum veniam! Laborum laudantium amet illo veniam, velit eaque corrupti vel, quisquam magnam illum sit! Assumenda.</td>
+      <td>
+        5/August/2025 
+        <br>
+        8:30pm
+      </td>
+    </tr>
+  </table>
+  <div class="div9">
+    <div class="div9i next"><img src="../../assets/prev.png" alt="" class="div9img "></div>
+    <div class="div9ii prev"><img src="../../assets/next.png" alt="" class="div9img "></div>
+  </div>
+  <h2 class="div22">Add Project</h2>
+  <form action="../../classes/includes/media.php" method="post" class="form">
+    <label for="" class="label">Images :</label>
+    <input type="file" class="cover">
+    <input type="file" placeholder="optional" class="cover" name="img1">
+    <input type="file" placeholder="optional" class="cover" name="img2">
+    <input type="file" placeholder="optional" class="cover" name="img3">
+    <label for="" class="label">Heading :</label>
+    <textarea name="head" class="cover"></textarea><br>
+    <label for="" class="label">Write Up :</label>
+    <textarea name="write" class="cover"></textarea><br>
+    <button>ADD POST</button>
+  </form>
+
+  <?php
+  
+    require_once "../bottom/biobottom.php";
+
+  } else {
+    header("location: ../../index.php");
+  }
+    ?>

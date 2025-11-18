@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+a{
+  text-decoration: none;
+  color: white;
+}
+.shift{
+  display: flex;
+  font-size: small;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(39, 137, 39);
+  margin-top: 0;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  list-style: none;
+}
+.error{
+  color: red;
+  font-size: medium;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+label{
+  display: flex;
+}
+.li1{
+  margin-left: auto;
+  margin-right: 10%;
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  font-size: large;
+}
+.first{
+  background-image: url('../../assets/logo-YGPAtP36.png');
+  background-color: rgb(39, 137, 39);
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  padding-top: 15%;
+}
+.third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  width: 500px;
+  height: 180px;
+  background-color: rgb(186, 213, 186);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: 10%;
+  color: rgb(2, 64, 2);
+  padding-top: 120px;
+
+}
+.third1{
+  text-align: center;
+}
+
+.button{
+  display: block;
+  margin-left: auto;
+  font-size: large;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+}
+label{
+  font-size: x-large;
+}
+input{
+  width: 350px;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+  border-color: rgb(7, 118, 7);
+  color: rgb(2, 64, 2);
+  font-size: larger;
+}
+.form{
+  display: flex;
+  margin-top: 40px;
+  color: rgb(209, 202, 202);
+}
+.dot{
+  text-decoration: underline;
+}
