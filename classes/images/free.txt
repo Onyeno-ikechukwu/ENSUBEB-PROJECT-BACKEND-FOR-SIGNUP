@@ -1,0 +1,8 @@
+localhost/the folder name/file name.php
+
+
+we use $ as var or let
+
+study supper globers 
+oop
+php array
